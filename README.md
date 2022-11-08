@@ -6,3 +6,14 @@ Project structure (2 sub projects):
   2. Manulife.Demo.Library- Class library. All API calls are made here. Models and Services are available here and injected into the view (Demo.Web). 
   
   Please note some warnings are suppressed for this demo. Placeholders (eg. exception logging) and comments are used where applicable. Project does not include unit testing. 
+  
+  How to run:
+  1. Open project root in VS-Code for viewing project structure.
+  2. Open terminal to \Manulife.Demo.Web\
+  3. Run these 2 commands in terminal to build and to launch web app. 
+  
+  ###
+  > dotnet build  
+  ###
+  > dotnet run 
+  ###
