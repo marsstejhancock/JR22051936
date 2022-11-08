@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manulife.Demo.Web", "Manulife.Demo.Web\Manulife.Demo.Web.csproj", "{B7173CD0-195A-4425-BBBF-682D68FB9B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manulife.Demo.Library", "Manulife.Demo.Library\Manulife.Demo.Library.csproj", "{FDC411AF-DF65-4081-AAF9-0FF85D5E9710}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7173CD0-195A-4425-BBBF-682D68FB9B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7173CD0-195A-4425-BBBF-682D68FB9B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7173CD0-195A-4425-BBBF-682D68FB9B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7173CD0-195A-4425-BBBF-682D68FB9B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC411AF-DF65-4081-AAF9-0FF85D5E9710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC411AF-DF65-4081-AAF9-0FF85D5E9710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC411AF-DF65-4081-AAF9-0FF85D5E9710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC411AF-DF65-4081-AAF9-0FF85D5E9710}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57FDC0D7-D23C-4E90-8899-5DDAB9159353}
+	EndGlobalSection
+EndGlobal

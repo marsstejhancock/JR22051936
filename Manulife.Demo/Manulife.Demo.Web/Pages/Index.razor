@@ -1,0 +1,57 @@
+﻿@page "/"
+
+@inject IJSRuntime _jsRuntime
+
+<PageTitle>Demo API- Numbers are facts</PageTitle>
+
+<EditForm id="frmAPIDemo" EditContext="@DemoContext" OnValidSubmit="@HandleValidSubmitEvent" style="width:75%; margin-left:15%;">
+    <DataAnnotationsValidator />
+    <div class="card">
+        <div class="card-header">
+            Numbers are fun! So are APIs!
+        </div>
+        <div class="card-body">
+
+            <div>
+                <p>
+                    ** Numbers API is a public API with fun facts about any number, let it be date, year or even a trivia clue!
+                </p>
+            </div>
+            <div style="max-width:50%;">
+                <div class="input-group mb-4">
+                    <span for="txttxtNumber" class="input-group-text">Type any number</span>
+                    <InputNumber id="txtNumber" @bind-Value="APIService.NumbersAPIInfo.Param"
+                               class="form-control form-control-sm" DisplayName="Number here!"
+                               placeholder="Type any number & hit enter!" @ref=txtNumber aria-describedby="basic-txtNumber" />
+                </div>
+
+                <div class="input-group mb-4">
+                    <span for="txttxtNumber" class="input-group-text">Pick the type</span>
+                    <InputSelect id="isNumber" @bind-Value="APIService.NumbersAPIInfo.Type"
+                                 class="form-select form-control-sm" DisplayName="Number here!"
+                                 placeholder="Number here!">                       
+                        <option value="@APIConstants.API_Numbers_Type_Trivia">Coach me for trivia!</option> 
+                        <option selected="selected" value="@APIConstants.API_Numbers_Type_Date">On this date!</option>
+                        <option value="@APIConstants.API_Numbers_Type_Year">What happened this year?</option>
+                    </InputSelect>
+                </div>
+            </div>
+            <div>
+                <p>
+                    <span>@APIService.NumbersAPIInfo.JSONResult</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="card-footer">
+            <div class="row g-3 sm">
+                <div class="col-sm-4">
+                    <button class="btn btn-success position-relative float-right" type="submit">
+                        click me!
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</EditForm>

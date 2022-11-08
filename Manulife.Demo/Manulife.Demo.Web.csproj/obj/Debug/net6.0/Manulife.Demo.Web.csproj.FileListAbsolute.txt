@@ -1,0 +1,6 @@
+C:\Code\Manulife.Demo\Manulife.Demo.Web.csproj\obj\Debug\net6.0\Manulife.Demo.Web.csproj.AssemblyReference.cache
+C:\Code\Manulife.Demo\Manulife.Demo.Web.csproj\obj\Debug\net6.0\Manulife.Demo.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\Manulife.Demo\Manulife.Demo.Web.csproj\obj\Debug\net6.0\Manulife.Demo.Web.AssemblyInfoInputs.cache
+C:\Code\Manulife.Demo\Manulife.Demo.Web.csproj\obj\Debug\net6.0\Manulife.Demo.Web.AssemblyInfo.cs
+C:\Code\Manulife.Demo\Manulife.Demo.Web.csproj\obj\Debug\net6.0\Manulife.Demo.Web.csproj.CoreCompileInputs.cache
+C:\Code\Manulife.Demo\Manulife.Demo.Web.csproj\obj\Debug\net6.0\Manulife.Demo.Web.MvcApplicationPartsAssemblyInfo.cache
